@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Montserrat:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <title>Burger Town</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header__wrapper">
+            <div class="logo">
+                <img src="{% static 'img/logo.svg' %}" alt="" class="logo_img">
+                <span>burger <br> town</span>
+            </div>
+
+            <nav class="nav">
+                <a href="#" class="nav__link">
+                    Как добраться
+                </a>
+
+                <a href="#" class="nav__link">
+                    Меню
+                </a>
+
+                <a href="#" class="nav__link">
+                    Контакты
+                </a>
+
+                <a href="#"> <img src="{% static 'img/vk.svg' %}" alt="" class="contact-vk"> </a>
+                <a href="#"> <img src="{% static 'img/insta.svg' %}" alt="" class="contact-insta"> </a>
+            </nav>
+        </div>
+
+        <div class="header__info">
+            <div class="header__text">
+                <div class="header__text-title">
+                    Голодны?
+                </div>
+                <div class="header__text-subtitle">
+                    Готовим самые вкуcные бургеры на всём свете, свежайшие продукты, море соусов и, разумеется, лучшее  свежее пиво.
+                </div>
+            </div>
+            <div class="header__burger-img">
+                <img class="header__burger-img" src="{% static 'img/test-burger.png' %}" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

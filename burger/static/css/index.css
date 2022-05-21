@@ -1,0 +1,73 @@
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+}
+.header__wrapper{
+    margin: 0 auto;
+    margin-bottom: 140px;
+    display: flex;
+    width: 954px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo_img{
+    margin-right: 14px;
+}
+.logo span{
+    line-height: 18px;
+}
+nav.nav{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+.nav__link{
+    align-self: center;
+    text-decoration: none;
+    color: black;
+}
+.header__info{
+    /* background-color: coral; */
+    width: 954px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header__text{
+    max-width: 356px;
+}
+.header__text-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    line-height: 14px;
+    font-weight: 700;
+    padding-top: 76px;
+    margin-bottom: 50px;
+}
+.header__text-subtitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: ;
+}
+.header__burger-img{
+    max-width: 450px;
+    max-height: 342px;
+    /* border-radius: 142px; */
+}
